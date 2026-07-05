@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Abhigna Bobbepalli — Software Engineer & Co-Founder. Code. Create. Scale. Building at the intersection of ML/full-stack and startup finance.">
+  <title>Abhigna Bobbepalli — Code. Create. Scale.</title>
+  <link rel="preconnect" href="https://api.fontshare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Custom Cursor Ring -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+
+  <!-- Navigation -->
+  <header class="header-nav" role="banner">
+    <div class="container nav-container">
+      <div class="nav-logo-group" style="display: flex; align-items: center; gap: 16px;">
+        <div class="nav-logo font-display" id="header-logo" style="opacity: 0;">ABHIGNA BOBBEPALLI</div>
+        <div class="status-badge font-utility" id="header-status-badge" style="opacity: 0;">
+          <span class="status-dot"></span>
+          BUILDING KARSATHI
+        </div>
+      </div>
+      <!-- Hamburger Toggle Button -->
+      <button class="menu-toggle font-utility" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false" style="opacity: 0; pointer-events: none;">
+        <span>MENU</span>
+      </button>
+      <nav aria-label="Main navigation" id="nav-menu">
+        <ul class="nav-links font-utility" style="list-style: none; display: flex; gap: 24px; opacity: 0;">
+          <li><a href="#about" class="nav-link">01 // ABOUT</a></li>
+          <li><a href="#work" class="nav-link">02 // STACK</a></li>
+          <li><a href="#projects" class="nav-link">03 // PROJECTS</a></li>
+          <li><a href="#recognition" class="nav-link">04 // RECOGNITION</a></li>
+          <li><a href="#music" class="nav-link">05 // MUSIC</a></li>
+          <li><a href="#contact" class="nav-link">06 // CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HOME View (First View on Load) -->
+    <section class="home-view" id="home" aria-label="Welcome">
+      <div class="home-glow" id="ambient-glow"></div>
+
+        </div>
+        <div class="home-name-container">
+          <h1 class="home-name font-display" id="transition-name">ABHIGNA BOBBEPALLI</h1>
+        </div>
+        <div class="home-phrases font-utility" id="looping-phrases">
+          <span class="phrase">Building real products end-to-end.</span>
+          <span class="phrase">Owning the balance sheet.</span>
+          <span class="phrase">Shipping, not just demoing.</span>
+          <span class="phrase">Optimizing code & economics.</span>
+        </div>
+      </div>
+      <div class="home-scroll-cue font-utility" id="scroll-cue">
+        <a href="#landing">ENTER ↓</a>
+      </div>
+    </section>
+
+    <!-- LANDING View (Hero Tagline & Work) -->
+    <section class="hero container" id="landing" aria-label="Introduction">
+      <h1 class="hero-kinetic font-display">
+        <span>CODE.</span>
+        <span>CREATE.</span>
+        <span>SCALE.</span>
+      </h1>
+      <p class="hero-role font-body">Software Engineer & Co-Founder, building at the intersection of ML/full-stack and startup finance.</p>
+      <p class="hero-subtle font-utility">
+        Currently: Co-Founder & CFO @ <a href="https://karsathi-website.vercel.app/" target="_blank" rel="noopener noreferrer">KarSathi</a> · B.Tech IT, SRMIST '28.
+      </p>
+    </section>
+
+    <!-- About Section -->
+    <section class="container reveal-section" id="about" aria-labelledby="about-title">
+      <div class="section-header">
+        <div class="section-num font-utility">01 // BEYOND THE CODE</div>
+        <h2 id="about-title" class="section-title">ABOUT ME</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-intro font-body">
+          I don't just prototype. I build systems that own the balance sheet.
+        </div>
+        <div class="about-body">
+          <p>
+            I live at the intersection of product engineering and startup economics. As an active competitive programmer with over 250+ solved problems on CodeChef, my code is optimized for performance under pressure.
+          </p>
+          <p>
+            As the Co-Founder & CFO at KarSathi, I weigh every engineering decision against business tradeoffs. I believe engineers should understand their P&L as deeply as their database schemas. Every line of code either drives growth or incurs debt and I manage both.
+          </p>
+          <div class="about-card">
+            <p>
+              "Building real products end-to-end means thinking about deployment, user adoption, and unit economics from day one. Prototypes are easy. Production is hard."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section class="container reveal-section" id="work" aria-labelledby="stack-title">
+      <div class="section-header">
+        <div class="section-num font-utility">02 // WHAT I WORK WITH</div>
+        <h2 id="stack-title" class="section-title">TECH STACK</h2>
+      </div>
+      <div class="tech-grid">
+        <!-- Category 1 -->
+        <div class="tech-category reveal-stagger">
+          <h3 class="tech-category-title font-utility">Backend & AI</h3>
+          <ul class="tech-list font-utility">
+            <li class="tech-item">FastAPI</li>
+            <li class="tech-item">Node.js</li>
+            <li class="tech-item">Express.js</li>
+            <li class="tech-item">Supabase</li>
+            <li class="tech-item">Groq LLaMA 3.3-70B</li>
+            <li class="tech-item">REST APIs</li>
+          </ul>
+        </div>
+        <!-- Category 2 -->
+        <div class="tech-category reveal-stagger">
+          <h3 class="tech-category-title font-utility">Frontend</h3>
+          <ul class="tech-list font-utility">
+            <li class="tech-item">React</li>
+            <li class="tech-item">HTML5</li>
+            <li class="tech-item">CSS3</li>
+            <li class="tech-item">JavaScript</li>
+          </ul>
+        </div>
+        <!-- Category 3 -->
+        <div class="tech-category reveal-stagger">
+          <h3 class="tech-category-title font-utility">Data</h3>
+          <ul class="tech-list font-utility">
+            <li class="tech-item">SQL</li>
+            <li class="tech-item">MongoDB</li>
+            <li class="tech-item">Pandas</li>
+            <li class="tech-item">NumPy</li>
+          </ul>
+        </div>
+        <!-- Category 4 -->
+        <div class="tech-category reveal-stagger">
+          <h3 class="tech-category-title font-utility">Tools</h3>
+          <ul class="tech-list font-utility">
+            <li class="tech-item">GitHub</li>
+            <li class="tech-item">VS Code</li>
+            <li class="tech-item">n8n</li>
+            <li class="tech-item">Vercel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="container reveal-section" id="projects" aria-labelledby="projects-title">
+      <div class="section-header">
+        <div class="section-num font-utility">03 // SELECTED PROJECTS</div>
+        <h2 id="projects-title" class="section-title">PROJECTS</h2>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 (Flagship) -->
+        <div class="project-card flagship reveal-stagger">
+          <div class="project-meta">
+            <div>
+              <span class="project-ref font-utility">PROJECT // 01 [FLAGSHIP]</span>
+              <h3 class="project-title">KarSathi</h3>
+            </div>
+            <span class="status-pill status-live font-utility" aria-label="Project Status: Live">LIVE</span>
+          </div>
+          <p class="project-desc">
+            WhatsApp-native AI compliance assistant for Indian MSMEs (building toward iStart Rajasthan and Google for Startups Accelerator India). Shipped the CA Dashboard compliance matrix, deadline calendar, and GST notice tracker.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags">
+              <span class="tech-tag font-utility">FastAPI</span>
+              <span class="tech-tag font-utility">Groq LLaMA 3.3</span>
+              <span class="tech-tag font-utility">Supabase</span>
+              <span class="tech-tag font-utility">React</span>
+              <span class="tech-tag font-utility">WhatsApp API</span>
+            </div>
+            <a href="https://karsathi-website.vercel.app/" class="project-btn" target="_blank" rel="noopener noreferrer">LIVE DEMO</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal-stagger">
+          <div class="project-meta">
+            <div>
+              <span class="project-ref font-utility">PROJECT // 02</span>
+              <h3 class="project-title">YantraVaani</h3>
+            </div>
+            <span class="status-pill status-in-progress font-utility" aria-label="Project Status: In Progress">IN PROGRESS</span>
+          </div>
+          <p class="project-desc">
+            Hindi & regional-language voice assistant for construction machinery, built for Tata Technologies InnoVent-27.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags font-utility">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Gemini API</span>
+              <span class="tech-tag">PyTorch</span>
+              <span class="tech-tag">Speech-to-Text</span>
+            </div>
+            <span class="project-btn" style="opacity: 0.6; cursor: not-allowed; border-color: var(--color-border); color: var(--color-text-secondary-on-surface);">IN PROGRESS</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal-stagger">
+          <div class="project-meta">
+            <div>
+              <span class="project-ref font-utility">PROJECT // 03</span>
+              <h3 class="project-title">ReportCraft</h3>
+            </div>
+            <span class="status-pill status-in-progress font-utility" aria-label="Project Status: In Progress">IN PROGRESS</span>
+          </div>
+          <p class="project-desc">
+            AI report generator for students, automating layout and citations using React, FastAPI, Gemini, and Supabase.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags font-utility">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">FastAPI</span>
+              <span class="tech-tag">Gemini API</span>
+              <span class="tech-tag">Supabase</span>
+            </div>
+            <a href="https://github.com/abhignab/ReportCraft" class="project-btn" target="_blank" rel="noopener noreferrer">VIEW ON GITHUB</a>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal-stagger">
+          <div class="project-meta">
+            <div>
+              <span class="project-ref font-utility">PROJECT // 04</span>
+              <h3 class="project-title">AdVantage Gen</h3>
+            </div>
+            <span class="status-pill status-team font-utility" aria-label="Project Status: Team">TEAM</span>
+          </div>
+          <p class="project-desc">
+            AI social media campaign generator executing a prompt pipeline for brand-consistent ad creatives.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags font-utility">
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express.js</span>
+              <span class="tech-tag">OpenAI API</span>
+              <span class="tech-tag">REST APIs</span>
+            </div>
+            <a href="https://github.com/salonibhoskar06/Aiadgenerator" class="project-btn" target="_blank" rel="noopener noreferrer">VIEW ON GITHUB</a>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card reveal-stagger">
+          <div class="project-meta">
+            <div>
+              <span class="project-ref font-utility">PROJECT // 05</span>
+              <h3 class="project-title">Phishing Detector</h3>
+            </div>
+            <span class="status-pill status-live font-utility" aria-label="Project Status: Live">LIVE</span>
+          </div>
+          <p class="project-desc">
+            Lightweight Chrome extension flagging phishing websites in real time to secure user browsing.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags font-utility">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Chrome Extension API</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+            </div>
+            <a href="https://github.com/abhignab/phishing-detector" class="project-btn" target="_blank" rel="noopener noreferrer">VIEW ON GITHUB</a>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card reveal-stagger">
+          <div class="project-meta">
+            <div>
+              <span class="project-ref font-utility">PROJECT // 06</span>
+              <h3 class="project-title">DSA Visualizer</h3>
+            </div>
+            <span class="status-pill status-live font-utility" aria-label="Project Status: Live">LIVE</span>
+          </div>
+          <p class="project-desc">
+            Interactive BFS and DFS graph traversal visualizer designed to simplify complex algorithmic traces.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags font-utility">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <a href="https://github.com/abhigna-26/CS-ARCADE" class="project-btn" target="_blank" rel="noopener noreferrer">VIEW ON GITHUB</a>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div class="project-card reveal-stagger">
+          <div class="project-meta">
+            <div>
+              <span class="project-ref font-utility">PROJECT // 07</span>
+              <h3 class="project-title">Rex Twin Energy Model</h3>
+            </div>
+            <span class="status-pill status-live font-utility" aria-label="Project Status: Live">LIVE</span>
+          </div>
+          <p class="project-desc">
+            Real-time energy consumption dashboard engineered for a manufacturing digital-twin platform.
+          </p>
+          <div class="project-footer">
+            <div class="project-tags font-utility">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">SQL</span>
+              <span class="tech-tag">Pandas</span>
+              <span class="tech-tag">NumPy</span>
+            </div>
+            <a href="https://github.com/abhigna-26/Rex-Twin" class="project-btn" target="_blank" rel="noopener noreferrer">VIEW ON GITHUB</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recognition Section -->
+    <section class="container reveal-section" id="recognition" aria-labelledby="recognition-title">
+      <div class="section-header">
+        <div class="section-num font-utility">04 // PROOF OF MOMENTUM</div>
+        <h2 id="recognition-title" class="section-title">RECOGNITION</h2>
+      </div>
+      <div class="recognition-strip">
+        <!-- Award 1 -->
+        <div class="recognition-card reveal-stagger">
+          <div>
+            <div class="recog-context font-utility">KarSathi</div>
+            <div class="recog-title">Building toward iStart Rajasthan & Google Accelerator</div>
+          </div>
+          <div class="recog-detail font-utility">Target In-Progress Milestone</div>
+        </div>
+        <!-- Award 2 -->
+        <div class="recognition-card reveal-stagger">
+          <div>
+            <div class="recog-context font-utility">Hackathon</div>
+            <div class="recog-title">Bharatiya Antariksh Hackathon 2026</div>
+          </div>
+          <div class="recog-detail font-utility">Team Vikiran</div>
+        </div>
+        <!-- Award 3 -->
+        <div class="recognition-card reveal-stagger">
+          <div>
+           
+          <div class="recog-detail font-utility">Application Submitted</div>
+        </div>
+        <!-- Award 4 -->
+        <div class="recognition-card reveal-stagger">
+          <div>
+            <div class="recog-context font-utility">Algorithms</div>
+            <div class="recog-title">250+ Problems Solved</div>
+          </div>
+          <div class="recog-detail font-utility">Active CodeChef Competitor</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education + Languages Section -->
+    <section class="container reveal-section" id="education" aria-labelledby="edu-title">
+      <div class="section-header">
+        <div class="section-num font-utility">05 // EDUCATION & LANGUAGES</div>
+        <h2 id="edu-title" class="section-title">CREDENTIALS</h2>
+      </div>
+      <div class="edu-lang-strip">
+        <!-- Education -->
+        <div class="edu-card reveal-stagger">
+          <h3 class="edu-title font-utility">Academic Background</h3>
+          <div class="edu-info">
+            <div class="edu-institution font-body">SRM Institute of Science and Technology</div>
+            <div class="edu-meta font-utility">B.Tech in Information Technology · Class of 2028</div>
+            <div class="edu-meta font-utility" style="margin-top: 8px; color: var(--color-accent);">CGPA: 9.18 / 10.0</div>
+          </div>
+        </div>
+        <!-- Languages -->
+        <div class="lang-card reveal-stagger">
+          <h3 class="lang-title font-utility">Languages</h3>
+          <div class="lang-list">
+            <span class="lang-tag font-utility">English</span>
+            <span class="lang-tag font-utility">Hindi</span>
+            <span class="lang-tag font-utility">Telugu</span>
+            <span class="lang-tag font-utility">Gujarati</span>
+            <span class="lang-tag font-utility">Tamil</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Music Section -->
+    <section class="container reveal-section" id="music" aria-labelledby="music-title">
+      <div class="section-header">
+        <div class="section-num font-utility">06 // A FEW THINGS I'M LISTENING TO</div>
+        <h2 id="music-title" class="section-title">MUSIC</h2>
+      </div>
+      <div class="music-row reveal-stagger">
+        <!-- Track 1 -->
+        <a href="https://open.spotify.com/track/2AnT5iXM8ET5kiqBuE8Mpi" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0293732df9ce62f28580bdb40e" alt="Rakhlo Tum Chupaake Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Rakhlo Tum Chupaake</span>
+            <span class="music-artist">Arpit Bala, Adil</span>
+          </div>
+        </a>
+        <!-- Track 2 -->
+        <a href="https://open.spotify.com/track/1Jsos1mzwTwYGOndYN5h8V" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e026d7f6a0fd312fb31ca3f91fb" alt="Farebi Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Farebi</span>
+            <span class="music-artist">Chaar Diwaari</span>
+          </div>
+        </a>
+        <!-- Track 3 -->
+        <a href="https://open.spotify.com/track/4UDmDIqJIbrW0hMBQMFOsM" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0255fb38fda5321a8923911ff9" alt="Stayin' Alive Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Stayin' Alive</span>
+            <span class="music-artist">Bee Gees</span>
+          </div>
+        </a>
+        <!-- Track 4 -->
+        <a href="https://open.spotify.com/track/3SVgtZSEqPNga5pKOJLCDZ" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-fa.spotifycdn.com/image/ab67616d00001e027838ccbef3fb712228e23fc5" alt="Move (Yeh Ishq Ishq) Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Move (Yeh Ishq Ishq)</span>
+            <span class="music-artist">Shashwat Sachdev, Reble, Sonu Nigam</span>
+          </div>
+        </a>
+        <!-- Track 5 -->
+        <a href="https://open.spotify.com/track/0febwTwLDSZzrt46i1RBF5" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e020cfff15d92e2acb5a4b45ef5" alt="Ishqa Ve Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Ishqa Ve</span>
+            <span class="music-artist">Zeeshan Ali, Yuvraj Tung...</span>
+          </div>
+        </a>
+        <!-- Track 6 -->
+        <a href="https://open.spotify.com/track/0DCmf7066T5DAjiF8uahv1" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e026e005f238ab77c3a483b8c4b" alt="Gal Sun Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Gal Sun</span>
+            <span class="music-artist">Sabat Batin, Rackstar</span>
+          </div>
+        </a>
+        <!-- Track 7 -->
+        <a href="https://open.spotify.com/track/6vH6xKa1vh9ihWrLYZAmU8" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0242c1a41297ebb6c2a2be969d" alt="Banda Kaam Ka Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Banda Kaam Ka</span>
+            <span class="music-artist">Chaar Diwaari, Sanjith Hegde</span>
+          </div>
+        </a>
+        <!-- Track 8 -->
+        <a href="https://open.spotify.com/track/6YewfSA18qq5xl1KlJQkpY" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02788fc5cc9fc13385eb8fb19d" alt="Chor Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Chor</span>
+            <span class="music-artist">Justh</span>
+          </div>
+        </a>
+        <!-- Track 9 -->
+        <a href="https://open.spotify.com/track/0gPgdRfB4jdGrlyXS0Vx78" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02a08c7022ea424b2f048b46e9" alt="Khuda Jaane Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Khuda Jaane</span>
+            <span class="music-artist">Vishal-Shekhar, KK, Shilpa Rao</span>
+          </div>
+        </a>
+        <!-- Track 10 -->
+        <a href="https://open.spotify.com/track/7h79u6jChrCZfnwCnt20LF" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02360805061c7f2fc75e631d7c" alt="Ik Kudi Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Ik Kudi</span>
+            <span class="music-artist">wolf.cryman, Arpit Bala</span>
+          </div>
+        </a>
+        <!-- Track 11 -->
+        <a href="https://open.spotify.com/track/4cluDES4hQEUhmXj6TXkSo" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e024a5584795dc73860653a9a3e" alt="What Makes You Beautiful Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">What Makes You Beautiful</span>
+            <span class="music-artist">One Direction</span>
+          </div>
+        </a>
+        <!-- Track 12 -->
+        <a href="https://open.spotify.com/track/6wmAHw1szh5RCKSRjiXhPe" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02897f73256b9128a9d70eaf66" alt="How Long Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">How Long</span>
+            <span class="music-artist">Charlie Puth</span>
+          </div>
+        </a>
+        <!-- Track 13 -->
+        <a href="https://open.spotify.com/track/4pt5fDVTg5GhEvEtlz9dKk" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025aa05015cfa7bd2943c29b21" alt="I Wanna Be Your Slave Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">I Wanna Be Your Slave</span>
+            <span class="music-artist">Måneskin</span>
+          </div>
+        </a>
+        <!-- Track 14 -->
+        <a href="https://open.spotify.com/track/0KKkJNfGyhkQ5aFogxQAPU" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02232711f7d66a1e19e89e28c5" alt="That's What I Like Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">That's What I Like</span>
+            <span class="music-artist">Bruno Mars</span>
+          </div>
+        </a>
+        <!-- Track 15 -->
+        <a href="https://open.spotify.com/track/6z15tFRtCyiSorSGaKLJeu" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e025a5954c5f20fd7905f94b376" alt="Vellipomaake Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Vellipomaake</span>
+            <span class="music-artist">Sid Sriram, ADK</span>
+          </div>
+        </a>
+        <!-- Track 16 -->
+        <a href="https://open.spotify.com/track/5cF0dROlMOK5uNZtivgu50" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02897f73256b9128a9d70eaf66" alt="Attention Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Attention</span>
+            <span class="music-artist">Charlie Puth</span>
+          </div>
+        </a>
+        <!-- Track 17 -->
+        <a href="https://open.spotify.com/track/08GYLNhKthS3arMdXsveRI" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e0205be603d0ab07ff5b195554e" alt="Haseen Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Haseen</span>
+            <span class="music-artist">Talwiinder, NDS, Rippy Grewal</span>
+          </div>
+        </a>
+        <!-- Track 18 -->
+        <a href="https://open.spotify.com/track/5XseQZ9TGr06Rv1Ye6wCu0" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02531cec6b022e44d52a5d92d2" alt="Dhundhala Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Dhundhala</span>
+            <span class="music-artist">Yashraj, Dropped Out, Talwiinder</span>
+          </div>
+        </a>
+        <!-- Track 19 -->
+        <a href="https://open.spotify.com/track/4ulroyDK6rN73nVkCkWhur" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e02eb2d8a0e6f6f4626af5f66f7" alt="Sahiba Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Sahiba</span>
+            <span class="music-artist">Jasleen Royal, Stebin Ben...</span>
+          </div>
+        </a>
+        <!-- Track 20 -->
+        <a href="https://open.spotify.com/track/0rlLBWFFTQiOWi963SH9bb" target="_blank" rel="noopener noreferrer" class="music-card">
+          <div class="music-thumbnail">
+            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67616d00001e028e001d2d4b55039b545d047e" alt="Choo Lo Cover" loading="lazy">
+          </div>
+          <div class="music-info font-body">
+            <span class="music-track-title">Choo Lo</span>
+            <span class="music-artist">The Local Train</span>
+          </div>
+        </a>
+      </div>
+      <p class="music-caption font-utility">A few songs I'd recommend if you're looking for something fresh :)</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="container contact-section reveal-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-header" style="margin-bottom: 24px;">
+        <div class="section-num font-utility">07 // CONNECT</div>
+      </div>
+      <h2 id="contact-title" class="contact-cta">
+        READY TO SHIP?<br>
+        <a href="mailto:bobbepalliabhigna@gmail.com">LET'S TALK CODE AND BALANCE SHEETS.</a>
+      </h2>
+      <div class="contact-details font-utility">
+        <div class="contact-link reveal-stagger">
+          <span class="contact-label">EMAIL</span>
+          <a href="mailto:bobbepalliabhigna@gmail.com" class="contact-val">bobbepalliabhigna@gmail.com</a>
+        </div>
+        <div class="contact-link reveal-stagger">
+          <span class="contact-label">GITHUB</span>
+          <a href="https://github.com/abhigna-26" target="_blank" rel="noopener noreferrer" class="contact-val">github.com/abhigna-26</a>
+        </div>
+        <div class="contact-link">
+          <span class="contact-label">PHONE</span>
+          <a href="tel:+919099986741" class="contact-val">+91 90999 86741</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container font-utility">
+      <div class="footer-copy">
+        © 2026 Abhigna Bobbepalli. All rights reserved.
+      </div>
+      <div class="footer-signature">
+        CODE. CREATE. SCALE.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
